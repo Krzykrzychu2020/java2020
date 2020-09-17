@@ -34,12 +34,12 @@ public abstract class Car extends Device  {
                 }
 
                 if (seller.getPhone() == null) {
-                    System.out.println("nie mam na sprzedaż komóry");
+                    System.out.println("nie mam na sprzedaż komórki");
                 } else {
                     System.out.println("mam na sprzedaż komóry");
                 }
             }else {
-                System.out.println("oj chyba jesteśmy biedni ");
+                System.out.println("nie stac nas  ");
             }
 
 
