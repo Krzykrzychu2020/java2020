@@ -25,13 +25,13 @@ public class Main {
         pasat.setColour("rudy");
         pasat.setModel("B5");
         pasat.setPrice(22745);
-        pasat.setProducer("Pasat starego company");
+        pasat.setProducer("Pasat");
 
         Car golf = new Disel();
         golf.setColour("butelkowa zielen ");
         golf.setModel("mk3");
         golf.setPrice(100);
-        golf.setProducer("golfica kurwica coropration");
+        golf.setProducer("golf");
 
 
         Car seat = new Electric();
@@ -44,7 +44,7 @@ public class Main {
         seat.setColour("yellow");
         seat.setModel("A6");
         seat.setPrice(2999);
-        seat.setProducer("Srałdi ");
+        seat.setProducer("Audi ");
 
 
         Human human = new Human();
