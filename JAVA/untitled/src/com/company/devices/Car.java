@@ -54,7 +54,7 @@ public abstract class Car extends Device  {
 
     @Override
     public boolean turnOn() {
-        System.out.println("odpalone");
+        System.out.println("właczone");
         return true;
     }
 
