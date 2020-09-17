@@ -22,7 +22,7 @@ public class Phone extends Device {
         public void sell(Human seller, Human buyer, Double price) {
             if (buyer.getCash() >= price) {
                 if (seller.getPet() == null) {
-                    System.out.println("nie mam na sprzedaż zwierza  ");
+                    System.out.println("nie mam na sprzedaż zwierzecia  ");
                 } else {
                     System.out.println("e mam na sprzedaż");
 
@@ -35,14 +35,14 @@ public class Phone extends Device {
                 }
 
                 if (seller.getPhone() == null) {
-                    System.out.println("nie mam na sprzedaż komóry");
+                    System.out.println("nie mam na sprzedaż komórki");
                 } else {
                     buyer.setCash(-price);
                     buyer.setPhone(seller.getPhone());
                     seller.setCash(+price);
                 }
             } else {
-                System.out.println("oj chyba jesteśmy biedni ");
+                System.out.println("nie stac nas ");
             }
 
         }
@@ -60,7 +60,7 @@ public class Phone extends Device {
 
     @Override
     public boolean turnOn() {
-        System.out.println("odpal komóre ");
+        System.out.println("włacz komórke ");
         return true;
     }
 
